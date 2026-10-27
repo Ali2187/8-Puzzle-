@@ -197,15 +197,3 @@ Edge cases are handled to prevent wrapping between rows.
 
 Both heuristics are admissible (never overestimate the true cost), guaranteeing optimality for A*.
 
-## Requirements
-
-- Python 3.6+
-- No external packages required (uses `heapq`, `collections.deque`, `time`, `math`)
-
-## License
-
-This project is open source and available for educational purposes.
-
-## Contributing
-
-Feel free to submit issues or pull requests to improve the algorithms, add new heuristics, or enhance the visualization.
